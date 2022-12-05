@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'FreeCode Spot',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        useMaterial3: true,
         primarySwatch: Colors.indigo,
         brightness: Brightness.dark,
       ),
